@@ -17,14 +17,16 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.9.2 # Debes especificar la versión deseada
 
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
 
-  # assets:
-  #   - assets/image.png
+  assets:
+    - assets/image.png
+    - assets/icono.jpg
     
   fonts:
     - family: MiFuente

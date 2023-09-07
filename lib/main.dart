@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
     // Creamos un MaterialApp, que configura aspectos globales de la aplicación.
     return MaterialApp(
       title: ' Tarea3_200931', // Título de la aplicación.
+      debugShowCheckedModeBanner: false,
       home: const MyHomePage(), // Widget de inicio de la aplicación.
     );
   }
